@@ -1,12 +1,11 @@
-# React + Vite
+# Requirement
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The application should provide users with the ability to connect their cryptocurrency wallet, displaying their wallet connection status and address with an option to disconnect when needed.
 
-Currently, two official plugins are available:
+Users should be able to perform ETH transfers by entering recipient addresses and specifying the amount to send, with proper validation before transaction execution. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The system needs to maintain a transaction history showing past transfers, including details such as transaction hashes, sender and recipient addresses, transferred amounts, status, and timestamps. 
 
-## Expanding the ESLint configuration
+The interface should provide clear feedback during all operations, implement loading states while transactions are processing, and handle errors appropriately. The design should be responsive, working seamlessly across both desktop and mobile devices. 
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
